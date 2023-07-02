@@ -1,0 +1,368 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        #email {
+            width: 200%;
+        }
+    </style>
+    <!--text formatting-->
+    <h2>text formatting</h2>
+
+    <p><i>This is an using i tag italic</i></p>
+    <p><em>This is also an italic using em tag</em></p>
+    <p><b>This is bold using b tag</b></p>
+    <p><strong>This is bold using strong tag</strong></p>
+    <p>this is <sub>subscript</sub></p>
+    <p>this is <sup>Superscript</sup></p>
+    <p>breaking the line from here using br tag<br> this is on the same paragraph tag</p>
+    <p>printing line belowusing hr tag</p>
+    <hr>
+
+    <!--heading tags-->
+    <h1>heading tags</h1>
+    <h1>h1 tag</h1>
+    <h2>h2 tag</h2>
+    <h3>h3 tag</h3>
+    <h4>h4 tag</h4>
+    <h5>h5 tag</h5>
+    <h6>h6 tag</h6>
+
+    <br><br>
+    <hr>
+
+    <!--image tag-->
+    <h1>image tag</h1>
+    <img src="./images.jpeg" alt="">
+
+    <hr>
+    <br><br>
+
+    <!--links-->
+
+
+    <h1>links</h1>
+    <a href="https://google.com">google</a>
+    <br><br>
+
+    <hr>
+    <h1>lists</h1>
+
+    <h3>ordered list</h3>
+
+    <ol type="A">
+        <li>banana</li>
+        <li>apple</li>
+        <li>watermelon</li>
+
+    </ol>
+    <p>we can also change bullets of ordered list by changing the type ie(1,A,a,i,I).</p>
+    <br><br>
+    <h3>unordered list</h3>
+    <ul type="disc">
+        <li>banana</li>
+        <li>apple</li>
+        <li>watermelon</li>
+    </ul>
+    <p>we can also change bullets of unordered list by changing the type ie(disc,circle,square,none).</p>
+
+    <br><br><br>
+
+
+
+    <hr>
+
+    <h1>table using rowspan,colspan and css on table border-collapse:collapse</h1>
+    <table border="1px" style="border-collapse: collapse;">
+        <tbody>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+                <td>Friday</td>
+            </tr>
+            <tr>
+                <td colspan="3">6am-7am <br> Break Time</td>
+                <td rowspan="2">6am-8am<br> Break Time</td>
+                <td colspan="2">6am-7am <br> Break Time</td>
+            </tr>
+            <tr>
+                <td>7am-8am</td>
+                <td>Web technoloy</td>
+                <td>Web technoloy</td>
+                <td>Math</td>
+                <td>Math</td>
+            </tr>
+            <td colspan="6"> 8am-9am Sports </td>
+
+            <tr>
+            <tr>
+                <td>9am-10am</td>
+                <td>DSA</td>
+                <td> DSA</td>
+                <td>DSA Lab</td>
+                <td>Extra course</td>
+                <td>Extra course</td>
+
+
+
+
+            </tr>
+            <tr>
+                <td colspan="6">10am-10.30am Launch</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10.30am-11.30am</td>
+                <td rowspan="2">Java</td>
+                <td rowspan="2">Java</td>
+
+                <td>10-30am-11.00am java project</td>
+                <td rowspan="2">SDA</td>
+                <td rowspan="2">SDA</td>
+
+
+
+
+            </tr>
+            <tr>
+                <td>11.00am -11.30am java lab</td>
+            </tr>
+
+
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <br><br>
+    <hr>
+    <h1>form using table and inline css in email input type ie(width)</h1>
+
+    <h2>Online Enquiry</h2>
+    <p>Please enter your details into the fields below,we will respond to your enquiry shortly via email.</p>
+
+    <form action="https://www.google.com/" name="my-form" method="get">
+        <table>
+            <tr>
+                <td> First Name<sup>*</sup></td>
+                <td> Middle Name</td>
+                <td> Last Name<sup>*</sup></td>
+
+            </tr>
+            <tr>
+                <td> <input type="text" id="FirstName" name="Firstname" placeholder="Firstname" required></td>
+                <td> <input type="text" id="MiddleName" name="Middlename" placeholder="Middlename"></td>
+                <td> <input type="text" id="LastName" name="Lastname" placeholder="Lastname" required></td>
+            </tr>
+            <tr>
+                <td>Email<sup>*</sup></td>
+                <td></td>
+                <td>contact Number<sup>*</sup></td>
+
+            </tr>
+
+            <tr>
+                <td> <input type="email" id="email" name="email" placeholder="email@gmail.com" required></td>
+                <td></td>
+                <td> <input type="number" id="number" name="number" placeholder="Number" required></td>
+
+            </tr>
+            <tr>
+                <td>program<sup>*</sup></td>
+                <td>stream<sup>*</sup></td>
+                <td>gender<sup>*</sup></td>
+
+
+
+            </tr>
+            <tr>
+                <td> <select name="education" id="education" required>
+                        <option value="">Choose</option>
+
+                        <option value="+2 program">10+2 Programs</option>
+                        <option value="Bachelor program">Bachelor Programs</option>
+                        <option value="Master program">Master Programs</option>
+
+                    </select> </td>
+                <td>
+                    <select name="educationCategory" id="educationCategory" required>
+                        <option value="">Choose</option>
+
+                        <option value="Maagement">Management</option>
+                        <option value="humanities">Humanities</option>
+                        <option value="Science">Science</option>
+                        <option value="BCA">BCA</option>
+                        <option value="BBM">BBM</option>
+                        <option value="BBS">BBS</option>
+                        <option value="MBA">MBA</option>
+                    </select>
+                </td>
+                <td><label>male</label><input type="radio" name="gender" id="male">
+                    <label>female</label><input type="radio" name="gender" id="female">
+                    <label>others</label><input type="radio" name="gender" id="other">
+                </td>
+            </tr>
+
+        </table> <br>
+        <p>Any questions/concerns?</p>
+        <tr>
+
+            <textarea rows="10" cols="70" placeholder="Any questions/concerns?" id="questions" name="questions"
+                required></textarea></td>
+        </tr>
+        <br>
+        <br>
+        <input type="submit" name="sumit" id="submit">
+
+    </form>
+    <br><br>
+    <hr>
+
+    <br><br>
+    <hr>
+    <h1 align="center">intro css</h1>
+    <h1>font family</h1>
+    <p class="serif">This is a serif font.</p>
+    <p class="sansserif">This is a sans-serif font.</p>
+    <p class="monospace">This is a monospace font.</p>
+
+
+    <br><br>
+    <hr>
+    <h1>font size properties</h1>
+    <p class="small">This is small font.</p>
+    <p class="medium">This is a medium font.</p>
+    <p class="large">This is a large font.</p>
+    <p class="xlarge">This is a xlarge font.</p>
+
+
+    <br><br>
+    <hr>
+    <h1>font weight properties</h1>
+    <p class="lighter">this is lighter weight</p>
+    <p class="bold">this is bold weight</p>
+    <p class="bolder">This is bolder weight</p>
+
+
+
+    <br><br>
+    <hr>
+
+    <h1>font varient</h1>
+    <p class="normal">this is normal</p>
+    <p class="small-caps">thsi is small-caps</p>
+    <br><br>
+    <hr>
+
+    <h1>the color properties</h1>
+    <br>
+    <h3 class="head"> heading tag </h3>
+    <p class="para">paragraph tag</p>
+    <b class="bold">bold tag</b>
+    <br><br>
+    <hr>
+
+    <h1>text align</h1>
+    <p class="left">this is left</p>
+    <p class="center">this is center</p>
+    <p class="right">this is right</p>
+    <br><br>
+    <hr>
+    <h1>text sadow</h1>
+
+    <p class="shadow">textshadow</p>
+    <br><br>
+    <hr>
+    <h1>border and broder properties ie(border-color,border-width,padding,border-style)</h1>
+
+    <p class="border">border example</p>
+    
+    <br><br>
+    <hr>
+    <h1>Background color</h1>
+    
+    <h1 class="background-color1">this is heading</h1>
+    <p class="background-color2">this is paragraph</p>
+<br><br>
+<hr>
+<h1>background image</h1>
+
+<p class="backgroundimg">
+    this paragraph has background image
+</p>
+<br><br>
+<hr>
+<h1>setting mouse cursor</h1>
+
+<p class="cursor-help">do you need help?</p>
+<p class="cursor-wait">this is wait cusor</p>
+<p class="cursor-pointer">this is pointer cursor</p>
+
+<br><br>
+<hr>
+
+<h1>positioning and layout</h1>
+
+<h2 class="display-none">this will not display</h2>
+<p>there is a header element above but i am not displaying</p>
+
+
+<h1>floating </h1>
+<p><img src="./images.jpeg" alt="" id="float-right"> 
+    this paragraph has an image that is floated to the <strong>right</strong>
+    it is highly recommended to add a margin to image so the text doesnt get too close to be easy to read 
+</p>
+
+<br><br>
+<br><br>
+<br><br><br><br>
+<p><img src="./images.jpeg" alt="" id="float-left"> 
+    this paragraph has an image that is floated to the <strong>left</strong>
+    it is highly recommended to add a margin to image so the text doesnt get too close to be easy to read 
+</p>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<h1>clearing floats</h1>
+
+This paragraph is above the div element
+and is not affected by the float right property.
+<br><br>
+<div class="float-ima">
+<img src="./images.jpeg" />
+</div>
+This paragraph comes after the div element
+and is affected by the float right property.
+<br><br class="clear">
+This paragraph is out of the floating group
+and is not affected by the float right property.
+<br> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

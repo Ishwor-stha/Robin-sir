@@ -1,0 +1,134 @@
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sansserif {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.monospace {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.small {
+    font-size: small;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.large {
+    font-size: large;
+}
+
+.xlarge {
+    font-size: x-large;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.normal {
+    font-variant: normal;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.head {
+    color: #FF5733;
+}
+
+.para {
+    color: blue;
+}
+
+.bold {
+    color: rgb(0, 255, 0);
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+
+}
+
+.right {
+    text-align: right;
+}
+
+.shadow {
+    color: red;
+    font-size: 30pt;
+    text-shadow: 5px 10px 8px black;
+}
+
+.border {
+    border-color: red;
+    border-style: double;
+    padding: 5%;
+    border-width: 5px;
+}
+
+.background-color1 {
+    background-color: green;
+}
+
+.background-color2 {
+    background-color: blueviolet;
+}
+
+
+
+.backgroundimg {
+    background-image: url("./image2.jpeg");
+    color: white;
+    height: 50px;
+    padding: 5%;
+}
+
+.cursor-help {
+    cursor: help;
+}
+
+.cursor-wait {
+    cursor: wait;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.display-none {
+    display: none;
+}
+
+#float-right {
+    float: right;
+}
+
+#float-left {
+    float: left;
+}
+
+.float-ima {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
